@@ -21,6 +21,15 @@ def response(payload):
   return pd.json_normalize([item['data'] for item in response] )
 
 def result(accgr, **params):
+  
+  def df_to_xls(df, passed ):
+    res = df['accountName', 'accountId', 'rrn', 'resourceType']
+    res.rename(columns = {'accountName':'Subscription/account name', \
+                          'accountId':'Subscription ID/account ID', \
+                          'rrn':'ARN',\
+                          'resourceType':'Resource type'} )
+    res.insert(0, ) 
+
   rql1 = params['rql1'] % accgr
   rql2 = params['rql2'] % accgr
 
@@ -30,6 +39,7 @@ def result(accgr, **params):
   txt1 = f"Total number of assets: {len(df2)}"
 
   if df1.empty and not df2.empty:
+    df_to_xls(df2, True)
     txt2 = f"Pass: {len(df2)}"
     txt3 = f"Fail: {len(df1)}"
     assetspass = f"\nPassed assets:\n{df2[params['display_on']].to_string(header=False, index=False)}"

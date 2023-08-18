@@ -1,0 +1,24 @@
+[]
+[
+    {'rrn': 'rrn: :storageBucket:us-east-1: 292172270682: 2f6e12b921f0a6bda125e75deb091cc29352a2b0:nuke-2', 'stateId': '387696db9c5e987c99fe40c111683543b5ada5f2', 'assetId': '86d4934b34587246233be2a4bb226102', 'id': 'nuke-2', 'name': 'nuke-2', 'accountId': '292172270682', 'accountName': 'cnc-mgmt-smakineni', 'cloudType': 'aws', 'regionId': 'us-east-1', 'regionName': 'AWS Virginia', 'service': 'Amazon S3', 'resourceType': 'Managed Storage Bucket', 'insertTs': 1686620043720, 'createdTs': 1678942773000, 'deleted': False, 'data': {'acl': {'owner': {'id': 'bd0c109fae6f62895e470ccf31de867cc96867c425820ab04404bad6ad869c83', 'displayName': 'cncventures2021'
+                }, 'grants': [
+                    {'grantee': {'identifier': 'bd0c109fae6f62895e470ccf31de867cc96867c425820ab04404bad6ad869c83', 'displayName': 'cncventures2021', 'typeIdentifier': 'id'
+                        }, 'permission': 'FullControl'
+                    }
+                ], 'grantsAsList': [
+                    {'grantee': {'identifier': 'bd0c109fae6f62895e470ccf31de867cc96867c425820ab04404bad6ad869c83', 'displayName': 'cncventures2021', 'typeIdentifier': 'id'
+                        }, 'permission': 'FullControl'
+                    }
+                ], 'requesterCharged': False
+            }, 'owner': {'id': 'bd0c109fae6f62895e470ccf31de867cc96867c425820ab04404bad6ad869c83', 'displayName': 'cncventures2021'
+            }, 'policy': {}, 'accountId': '292172270682', 'bucketName': 'nuke-2', 'creationDate': '2022-11-15T19: 58: 34.000Z', 'sseAlgorithm': 'AES256', 'policyAvailable': True, 'loggingConfiguration': {'targetGrants': [
+                    {'grantee': {'identifier': 'bd0c109fae6f62895e470ccf31de867cc96867c425820ab04404bad6ad869c83', 'displayName': 'cncventures2021', 'typeIdentifier': 'id'
+                        }, 'permission': 'FullControl'
+                    }
+                ]
+            }, 'versioningConfiguration': {'status': 'Off'
+            }, 'denyUnencryptedUploadsPolicies': [], 'accountLevelPublicAccessBlockConfiguration': {'blockPublicAcls': False, 'ignorePublicAcls': False, 'blockPublicPolicy': False, 'restrictPublicBuckets': False
+            }
+        }, 'hasNetwork': False, 'hasExternalFinding': False, 'hasExternalIntegration': False, 'allowDrillDown': True, 'hasExtFindingRiskFactors': False, 'resourceConfigJsonAvailable': True
+    }
+]
